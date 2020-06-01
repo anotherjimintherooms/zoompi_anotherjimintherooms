@@ -1,0 +1,58 @@
+Setting up ZoomPi
+
+Got things from Amazon:
+<list of things>
+
+Assembled case per https://www.youtube.com/watch?v=s0S1eTqqshY
+	- Attached fan to case lid, heatsinks, and mounted pi
+	- Did not close lid yet, for the camera
+Followed https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started/1
+	- Put SD card in adapter and in laptop slot
+	- Got Raspberry Pi Imager from: https://www.raspberrypi.org/downloads/
+	- Installed imager
+	- Ran imager
+	- Top option, Raspbian, 2020-02-13
+	- Chose SD card
+	- Chose write
+	- Ate dinner.... or not.
+Turned on Pi for the first time
+	- All settings as expected
+	- Password: 
+	- Chose not to handle black borders (I want to know how to change this setting later)
+	- Download and install updates "failed" with weird message.
+		- Remedy is apparently "sudo apt update"
+- Checked version of Raspbian
+	- cat /etc/os-release
+	- numbers... text... 10 "buster"
+	- great
+Tested audio using onboard port - works!
+Tested zoom using internet browser - works!
+Setting up microphone and sound card
+	- Disable onboard sound chip
+		- go to /etc/modprobe.d/
+		- F4 to open in terminal
+		- sudo mousepad raspi-blacklist.conf 
+		- add "blacklist snd_bcm2835"
+	- Rebooted with sound card plugged in
+	- The following is still in place; I can't figure out why audio doesn't work by default for zoom. Settings currently *have* to be switched [Note: I never figured this out; the next two lines are ? needed]
+		- Terminal: sudo mousepad /usr/share/alsa/alsa.conf
+			- Changed defaults.ctl.card "0" -> "1"
+			- Changed defaults.pcm.card "0" -> "1"
+	- Rt-click speaker, chose USB audio device - it works.
+	- Test using speaker-test -Dhw1,0 -c2 -twav
+    - Hi lady's voice!
+	- Zoom works, but only when settings are changed back and forth. Also, many microphone settings are listed... not a fan of that.
+Setting up camera
+	- sudo raspi-config
+<And the notes stopped here. Good job, Jim. I ran into technical difficulties, so I stopped taking notes. I fixed some. The rest of the following is from memory (read: unreliable).
+  - A dialog should show up.
+  - Choose "Interfacing Options"
+  - Choose "P1 Camera"
+  - Choose "Enable"
+  - Reboot
+  - Camera works!
+Set up link on the desktop to go straight to meeting. Had to do Captchas every time :/
+
+Case modifications
+  - Used dremel and grinding wheel to cut hole in case above the camera port; camera line was bending. Need a longer camera cable anyways.
+  - Drilled out the screw holes for the fan. Used rubber silent fan 
