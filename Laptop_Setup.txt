@@ -1,0 +1,112 @@
+Hybrid Meetings 
+Equipment Setup
+
+Hardware:
+	Notes:
+		- All specific items are simply what worked in our testing, they don't represent minimum requirements. 
+		* at left indicates that the club does not yet have these items.
+		- For some items I don't have detailed information, but generics should work fine
+*	- Computer
+		- E.g. Dell - G3 15.6" Gaming Laptop - Intel Core i5 - 8GB Memory - NVIDIA GeForce GTX 1660Ti Max-Q - 512GB Solid State Drive - Black
+			- https://www.bestbuy.com/site/dell-g3-15-6-gaming-laptop-intel-core-i5-8gb-memory-nvidia-geforce-gtx-1660ti-max-q-512gb-solid-state-drive-black/6350872.p?skuId=6350872
+*	- Wireless keyboard & mouse
+	- USB Sound card
+		- USB Audio Adapter, Gaming Headset to USB to 3.5mm Jack TRS AUX Adapter Built-in Chip USB Sound Card for Headset with Separate Plug [Metal Housing & Durable Braided] -DuKabel ProSeries
+			- https://www.amazon.com/gp/product/B07RV6VBNR/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1
+*	- Monitor
+		- E.g. Acer CB272 bmiprx 27" Full HD (1920 x 1080) IPS Zero Frame Home Office Monitor with AMD Radeon FreeSync - 1ms VRB, 75Hz Refresh, Height Adjustable Stand with Tilt & Pivot (Display, HDMI & VGA ports)
+			- https://www.amazon.com/Acer-CB272-bmiprx-FreeSync-Technology/dp/B07WMTLW2R/ref=sr_1_2?dchild=1&keywords=27+inch+monitor&qid=1590446854&refinements=p_36%3A1253506011&rnid=386442011&s=electronics&sr=1-2
+	- Mixer
+		- Harbinger L802 8-Channel Mixer
+	- Amp
+		- DENON Professional DN-470A 4-Channel 70V/100V Amplifier
+	- Speakers
+	- Podium microphone
+	- Cables
+*		- Video out (Laptop -> Monitor; HDMI Male-Male)
+			- Depends on the computer and the monitor! With different monitor or different computer, different cabling may be needed
+			- E.g.  AmazonBasics Nylon-Braided 4K, 18Gbps HDMI to HDMI Cable, 10 Feet
+				- https://www.amazon.com/AmazonBasics-Braided-4k-HDMI-Cable/dp/B075ZWY1SK/ref=sr_1_11?dchild=1&keywords=HDMI+cable&qid=1590446520&s=electronics&sr=1-11
+		- Mixer Main Out
+		- Mixer AUX Out (RCA - 3.5mm TRS; Male-Male)
+			- SIIG Woven Fabric Braided 3.5mm to RCA Stereo Cable - 2M
+				- https://www.frys.com/product/8353417?site=sr:SEARCH:MAIN_RSLT_PG
+		- Mixer Aux In  (RCA - 3.5mm TRS; Male-Male) [Note: this is the second of these cables]
+			- Same as previous
+	- For setup only (optional):
+*		- Headphones with 3.5mm jack
+			- E.g. Panasonic RPHJE120K Black Earphones Ergofit Design
+				- https://www.amazon.com/Panasonic-Headphones-RP-HJE120-K-Ergonomic-Comfort-Fit/dp/B003EM8008/ref=sr_1_2?dchild=1&keywords=headphones&qid=1590447103&refinements=p_36%3A-800&rnid=386442011&s=electronics&sr=1-2
+*		- Cheapo microphone with 3.5 mm jack
+			- E.g. Lavalier Microphone, Omnidirectional Condenser Lavalier MIC for Recording YouTube Interview (Suitable for iPhone/Android/Windows/Camera)
+				- https://www.amazon.com/gp/product/B07SPZPPYQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+Software:
+	- Zoom
+
+Setup
+	- Sound system 
+		- Already set up:
+			- Microphone connected to mixer (channel 1)
+			- Mixer main out connected to amp
+			- Amp connected to speakers
+		- Changes:
+			- Levels were returned to middles or off (depending)
+			- Connected RCA-3.5mm TRS to AUX input
+				- RCA connectors - red to red, white to white; 3.5mm connector not plugged in yet
+			- Connected other RCA-3.5mm TRS to AUX output (RCA)
+				- (Same) RCA connectors - red to red, white to white; 3.5mm connector not plugged in yet
+			- Button "TO AUX" is on (in)
+			- Button "TO PHONES (CTRL ROOM) is off (out)
+			- Button "PHANTOM POWER" is off (out)
+	- Power everything up
+		- Plug in Power Strip
+		- Podium Amp on
+		- Power on laptop
+		- Plug in, power on monitor
+	- Test house sound
+		- Tap on podium microphone
+		- Sound comes out through house speakers
+	- Video
+		- Connect HDMI cable to laptop and to monitor
+	- USB sound card
+		- Plug in to laptop
+		- Connect setup only headphones (green) and microphone (pink)
+		- Use voice recorder to make sure the system works okay without the mixer involved 
+			- Test record by tapping on the (setup only) microphone
+				- When tapping, there should be a visual indicator that there's sound picked up by the microphone
+			- Test playback of recorded file goes to headphones
+				- Tapping sound
+			- Troubleshooting
+				- Possibly, need to click on speaker icon in system tray (next to clock), choose something related to USB
+				- Possibly, need to rt-click speaker icon, Open Sound Settings; choose output device and input device
+		- Disconnect setup-only microphone (pink)
+		- Connect AUX output cable to USB Sound Card microphone in (pink)
+		- Use voice recorder to test audio in to computer
+			- Test record by tapping on the (podium) microphone
+			- Troubleshooting
+				- Possibly, make sure power light is on
+				- Possibly, check mixer levels
+					- Channel 1 GAIN (top left, near microphone plug) should be ~75%
+					- Channel 1 AUX dial should be halfway (or non-zero)
+					- Channel 1 Pan should be center
+					- Channel 1 main should be ~75% up
+		- Disconnect setup-only headset (green)
+		- Connect AUX input cable to USB Sound Card headset out (green)
+		- Use voice recorder to test audio going from computer to speakers
+			- Test playback of recorded file goes to house speakers
+			- Troubleshooting:
+				- Computer audio out level should be ~75
+				- AUX SEND (right side near power light) should be ~75%
+	- Zoom
+		- Connect to Zoom call (with a remotely located person A at the other end of the Zoom call to give thumbs up/down)
+		- "Use computer audio"
+		- Unmute
+		- Start Video
+		- Talk in to podium microphone; person A hears this
+			- Troubleshooting
+				- Rt-click speaker icon (in system tray, next to clock), Open Sound Settings; choose input device "USB 2" or something like that
+				- In zoom app, next to Mute button, open audio menu, microphone setting should be "Same as System"
+		- Person A talks, voice is heard through house speakers
+			- Troubleshooting
+				- Echoes - High pitched - lower Channel 1 EQ HI
+				- Echoes - general - ?
