@@ -40,7 +40,7 @@ Setting up microphone and sound card
 			- Changed defaults.pcm.card "0" -> "1"
 	- Rt-click speaker, chose USB audio device - it works.
 	- Test using speaker-test -Dhw1,0 -c2 -twav
-    - Hi lady's voice!
+    		- Hi lady's voice!
 	- Zoom works, but only when settings are changed back and forth. Also, many microphone settings are listed... not a fan of that.
 Setting up camera
 	- sudo raspi-config
@@ -51,11 +51,13 @@ Setting up camera
   - Choose "Enable"
   - Reboot
   - Camera works!
-Set up link on the desktop to go straight to meeting. Had to do Captchas every time :/
+Set up link on the desktop to go to the meeting. Had to do Captchas every time :/ There were a bunch of steps even with the link :(
 
 Case modifications
   - Used dremel and grinding wheel to cut hole in case above the camera port; camera line was bending. Need a longer camera cable anyways.
   - Drilled out the screw holes for the fan. Used rubber rivets.
   - Drilled out screw holes in the fan as well.
 
+???
 
+I'm sure this could be way better!
