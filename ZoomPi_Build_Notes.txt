@@ -55,4 +55,7 @@ Set up link on the desktop to go straight to meeting. Had to do Captchas every t
 
 Case modifications
   - Used dremel and grinding wheel to cut hole in case above the camera port; camera line was bending. Need a longer camera cable anyways.
-  - Drilled out the screw holes for the fan. Used rubber silent fan 
+  - Drilled out the screw holes for the fan. Used rubber rivets.
+  - Drilled out screw holes in the fan as well.
+
+
