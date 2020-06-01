@@ -23,6 +23,12 @@ Vilros Raspberry Pi 4 Power Supply
   - https://www.amazon.com/gp/product/B07W81T7HF/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1
 Micro HDMI to HDMI Adapter Cable
   - https://www.amazon.com/gp/product/B07VRCK5W1/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1
+Rubber Fan Grommets (shave off a couple dB sound)
+  - https://www.amazon.com/Noctua-NA-SAV3-Silicone-Anti-Vibration-mounts/dp/B071PFPFV2/
+    - Tested, work. Expensive. The fan they came with was a bust, too much cabling and I don't have a soldering iron.
+  - https://www.amazon.com/Cosmos-Pieces-Rubber-Mounting-Screws/dp/B00H9905KA/
+    - Should also work
+
 
 You will also need:
   - A display with an HDMI in
