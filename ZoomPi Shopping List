@@ -1,0 +1,32 @@
+Zoom Pi Shopping List
+
+I'm some random joker putting this stuff together. I have no affiliation with either Zoom or Raspberry Pi, I simply use the products the same way I use Folger's coffee - to help get stuff done.
+
+Raspberry Pi 4 Model B 2019 Quad Core 64 Bit WiFi Bluetooth (4GB)
+  - https://www.amazon.com/gp/product/B07TC2BK1X/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1
+2.4GHz Wireless Keyboard and Mouse with Mouse-Pad-Great for Raspberry Pi
+  - Any USB keyboard/mouse should work; this was just the cheapest wireless combo on Amazon at the time.
+  - https://www.amazon.com/gp/product/B07LH6TZSZ/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1
+GeeekPi Raspberry Pi 4 Case
+  - https://www.amazon.com/gp/product/B0838X2NBM/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1
+SanDisk Extreme 32GB MicroSDHC
+  - https://www.amazon.com/gp/product/B06XWMQ81P/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1
+Arducam Auto Focus Pi Camera
+  - I had trouble with this - for some reason the video is upside down. I didn't notice until I assembled the included case.
+  - https://www.amazon.com/gp/product/B07SN8GYGD/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1
+Lavalier Microphone
+  - Cheap 3.5mm microphone for testing purposes
+  - https://www.amazon.com/gp/product/B07SPZPPYQ/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1
+USB Audio Adapter
+  - https://www.amazon.com/gp/product/B07RV6VBNR/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1
+Vilros Raspberry Pi 4 Power Supply
+  - https://www.amazon.com/gp/product/B07W81T7HF/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1
+Micro HDMI to HDMI Adapter Cable
+  - https://www.amazon.com/gp/product/B07VRCK5W1/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1
+
+You will also need:
+  - A display with an HDMI in
+  - Headphones with a 3.5mm headphone jack (this is the common one)
+  - Internet
+  - Another computer with an SD card slot, for setting up the Raspberry Pi disk
+  
